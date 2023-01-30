@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { base_url } from "../../../base_url";
+import { base_url } from "../../../src/base_url";
 
 const SignUp = () => {
   const [name, setName] = useState("");

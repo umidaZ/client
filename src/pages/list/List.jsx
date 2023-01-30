@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import Table from "react-bootstrap/Table";
-import { base_url } from "../../../base_url";
+import { base_url } from "../../../src/base_url";
 import axios from "axios";
 
 const users = [];
